@@ -1,1 +1,41 @@
-/* Empty. Add your own CSS if you like */
+body{background:url(../img/woofer-wood.jpg) no-repeat;}
+
+.tabs .tab-item .icon.kennel {
+  background-repeat: no-repeat;
+  /*background-position: 50%;*/
+  height: 100%;
+  background-image: url(../img/icon-bar_01.png);
+  background-size:contain;
+}
+
+.tabs .tab-item .icon.sniff {
+  background-repeat: no-repeat;
+  /*background-position: 50%;*/
+  height: 100%;
+  background-image: url(../img/icon-bar_02.png);
+  background-size:contain;
+}
+
+.tabs .tab-item .icon.pack {
+  background-repeat: no-repeat;
+  /*background-position: 50%;*/
+  height: 100%;
+  background-image: url(../img/icon-bar_03.png);
+  background-size:contain;
+}
+
+.tabs .tab-item .icon.park {
+  background-repeat: no-repeat;
+  /*background-position: 50%;*/
+  height: 100%;
+  background-image: url(../img/icon-bar_04.png);
+  background-size:contain;
+}
+
+.tabs .tab-item .icon.barking {
+  background-repeat: no-repeat;
+  /*background-position: 50%;*/
+  height: 100%;
+  background-image: url(../img/icon-bar_05.png);
+  background-size:contain;
+}
