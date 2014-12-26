@@ -41,7 +41,8 @@
   -webkit-animation: spin 1s infinite linear;
   -moz-animation: spin 1s infinite linear;
   -o-animation: spin 1s infinite linear;
-  animation: spin 1s infinite linear; }
+  animation: spin 1s infinite linear; 
+}
 
 @-moz-keyframes spin {
   0% {
@@ -2444,7 +2445,7 @@ ion-infinite-scroll {
 
 /* If you change these, change platform.scss as well */
 .has-header {
-  top: 44px; }
+  top:100px; }
 
 .no-header {
   top: 0; }
@@ -2724,12 +2725,12 @@ a.subdued {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 44px;
-  border-width: 0;
+  height:100px;
+  /*border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
   border-bottom: 1px solid #ddd;
-  background-color: white;
+  background-color: white;*/
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
   background-size: 0; }
@@ -2765,9 +2766,9 @@ a.subdued {
     .bar.bar-light.bar-footer {
       background-image: linear-gradient(180deg, #ddd, #ddd 50%, transparent 50%); }
   .bar.bar-stable {
-    border-color: #b2b2b2;
+    /*border-color: #b2b2b2;
     background-color: #f8f8f8;
-    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);*/
     color: #444; }
     .bar.bar-stable .title {
       color: #444; }
@@ -2934,8 +2935,8 @@ a.subdued {
     background: none; }
 
 .bar-stable .button {
-  border-color: #b2b2b2;
-  background-color: #f8f8f8;
+  border-color:transparent;
+  background-color: transparent;
   color: #444; }
   .bar-stable .button:hover {
     color: #444;

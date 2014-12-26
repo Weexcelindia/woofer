@@ -1,11 +1,31 @@
-body{background:url(../img/woofer-wood.jpg) no-repeat;}
+body{background:url(../img/woofer-wood3.jpg) no-repeat; background-size:cover;}
+
+.kennel-bg {
+    background-image: url("../img/my-profile/my-doghouse.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;
+}
+
+.grass-pic {position:absolute; bottom:0; width:100%;}
+
+.default-title { display:none;
+}
+
+.setting-icon{background:url(../img/settings-cog.png) no-repeat; background-size:100%; margin:46px 0 0 15px;}
+
+.bar.bar-stable .title {
+    color: #444; display:none;
+}
 
 .tabs .tab-item .icon.kennel {
   background-repeat: no-repeat;
   /*background-position: 50%;*/
   height: 100%;
   background-image: url(../img/icon-bar_01.png);
-  background-size:contain;
+  background-size:contain; 
 }
 
 .tabs .tab-item .icon.sniff {
@@ -39,3 +59,6 @@ body{background:url(../img/woofer-wood.jpg) no-repeat;}
   background-image: url(../img/icon-bar_05.png);
   background-size:contain;
 }
+
+
+
